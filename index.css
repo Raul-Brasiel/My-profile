@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(20, 20, 41);
+    font-family: "Nunito", sans-serif;
+}
+#menu{
+    position: fixed;
+    top: 0;
+    padding-left: 33%;
+    left: 0;
+    right: 0;
+    background-color: rgba(20, 20, 41, 0.751);
+    z-index: 999;
+    height: 60px;
+}
+#menu ul a i{
+    position: fixed;
+    font-size: 30px;
+    margin: 0px 0px 0px 200px;
+}
+li{
+    list-style: none;
+}
+
+#menu ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.544);
+    margin: 20px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+footer{
+    position: absolute;
+    left: 0;
+    background-color: rgba(6, 1, 15, 0.626);
+    color: rgba(255, 255, 255, 0.748);
+    right: 0;
+}
+
+footer li:first-child{
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.789);
+}
+#img1{
+    position: absolute;
+    z-index: -999;
+    right: 0;
+    height: 250px;
+    top: 0;
+}
+#paragrafo_sobremim{
+    margin: 250px 0px 0px 100px;
+
+}
+#paragrafo_sobremim h2{
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+}
+#paragrafo_sobremim p{
+    color: rgb(222, 220, 253);
+    font-size: 130%;
+    text-align: justify;
+}
+.cards{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.cards img{
+    border-radius: 10px;
+}
+#card_1{
+    transform: rotate(20deg);
+    margin: 20px;
+}
+#card_2{
+    transform: rotate(-20deg);
+}
+#card_3{
+    transform: rotate(10deg);
+    margin: 10px 0px 0px 170px;
+}
+#fotos, #paragrafo_sobremim, #contatos{
+    width: 400px;
+    height: 400px;
+}
+
+#sobremim{
+    height: 700px;
+    display: flex;
+}
+#fotos{
+    width: 500px;
+    height: 350px;
+    margin: 250px 0px 0px 150px;
+
+}
+#contatos{
+    width: 200px;
+    margin: 300px 0px 2000px 40px;
+}
+#instagram{
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 10px 10px 10px 32px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#discord{
+    color: #7289da;
+    letter-spacing: 1px;
+    margin: 10px 5px 10px 25px;
+}
+#gmail{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 80px 0px 10px 56px;
+}
+#github{
+    background-color: #173253;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 10px 0px 10px 51px; 
+}
+
+.separador {
+    width: 150vh;
+    border: 1px solid #ffffff;
+    margin: 0px 195px;
+    background-color: #ffffff;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.projeto{
+    background-color: rgba(35, 35, 63, 0.623);
+    display: flex;
+    border-radius: 10px;
+    margin: 60px 20px 0px 20px;
+}
+#projetos{
+    margin: 60px 0px 0px 0px;
+}
+#matriximage{
+    width: 400px;
+    height: 185px;
+    padding: 10px 0px;
+}
+.projeto button{
+    background-color: #ff0000;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 4px;
+    margin: 0px 0px 10px 400px;
+    border-radius: 4px;
+}
+.projeto h2{
+    color: rgb(255, 255, 255);
+    position: center;
+    width: bold;
+    padding: 0px 10px;
+}
+.projeto p{
+    color: rgb(222, 220, 253);
+    font-size: 20px;
+    position: justify;
+    padding: 10px;
+}
+
+#projeto2{
+    margin: 100px 20px 10px 20px;
+}
+#forcaimage{
+    width: 400px;
+    height: 203px;
+    padding: 10px 0px;
+}
+
+#projeto3{
+    margin: 100px 20px 80px 20px;
+}
+#jogosantigos{
+    width: 400px;
+    height: 187px;
+    padding: 10px 0px;
+}
+#div_habilidades{
+    margin-top: 60px;
+}
+
+.card_hability {
+    max-width: 16vh;
+    padding: 3vh 1vh;
+}
+
+#habilidades {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    text-align: center;
+    width: 90%;
+    min-height: 40vh;
+    max-height: fit-content;
+    color: #ff0000;
+    border-radius: 2vh;
+    margin: 50px 0px 0px 0px;
+    padding: 0px 80px;
+}
+
+.card_hability {
+    display: inline-block;
+    flex-direction: column;
+    width: 90vh;
+    height: 17vh;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 5vh 1vh;
+    border: 1px solid #ff0000;
+    white-space: nowrap;
+}
+.card_hability i{
+    font-size: 50px;
+}
+
+
+.card_hability:hover{
+    box-shadow: 10px 10px 20px 5px #520101;
+    transform: scale(1.08);
+    background-color: rgb(26, 26, 52);
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+#sobremim img:hover{
+    transform: rotate(-20deg);
+}
+#menu ul a i:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+#menu ul a:hover{
+    color: #ffffff;
+}
+audio{
+    margin-left: 60px;
+}
